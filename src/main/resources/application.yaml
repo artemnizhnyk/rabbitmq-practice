@@ -1,1 +1,15 @@
-spring.application.name=rabbitmq-practice
+server:
+  port: 8080
+
+spring:
+  application:
+    name: rabbitmq-practice
+
+  rabbitmq:
+    host: localhost
+    username: USER
+    password: PASSWORD
+    port: 5672
+
+queue:
+  name: FirstQueue
